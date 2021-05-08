@@ -5,6 +5,7 @@ Still in development.
 ## Hardware and Software Requirments
   * 64 bit Linux or Mac OS X
   * Python 3.6 or higher
+  * bedtools suite in path
   
 ## Setting up a virtual environment (Optional)
 It is recommended to create a virtual environment before setting
