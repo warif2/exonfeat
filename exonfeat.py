@@ -20,10 +20,12 @@ if __name__ == '__main__':
                           help="specify path to rmats output file", required=True)
     required.add_argument("-o", type=str, default=None, metavar="<out_path>",
                           help="specify path to output directory", required=True)
+    required.add_argument("-db", type=str, default=None, metavar="<tx_db>",
+                          help="specify path to transcript database", required=True)
     optional.add_argument("-l", "--license", action=licenseAction, metavar="", nargs=0,
                           help='show license status and exit')
     parser._action_groups.append(optional)
     args = parser.parse_args()
 
     # Perform exon feature analysis
-    license.exon_feature(args.rf, args.o, sys.argv)
+    license.exon_feature(args.rf, args.o, args.db, sys.argv)
