@@ -53,7 +53,7 @@ python tx_db.py -gff <path_to_gff_file> -fa <path_to_fasta_genome> -out <output_
 
 Once transcript database is created, exon feature analysis can be performed  
   
-Step 2: Run exonfeat.py on filtered rMATS output
+Step 2: Run exonfeat.py on filtered rMATS output file
 ```bash
 # Example on how to run command exonfeat.py
 python exonfeat.py -rf <path_to_rMATS> -o <output_path> -db <path_to_tx_db>
