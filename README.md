@@ -2,7 +2,7 @@
 A collection of scripts for analysis rMATS data. 
 Still in development.
 
-## Hardware and Software Requirments
+## Hardware and Software Requirements
   * 64 bit Linux or Mac OS X
   * Python 3.6 or higher
   * bedtools suite in path
