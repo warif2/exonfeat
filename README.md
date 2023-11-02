@@ -9,7 +9,8 @@ Still in development.
   
 ## Setting up a virtual environment (Optional)
 It is recommended to create a virtual environment before setting
-up the script to avoid errors with dependencies.
+up the script to avoid errors with dependencies. To install Anaconda,
+follow the instructions available here, https://docs.anaconda.com/anaconda/install/.
 
 ```bash
 # Creating venv with the name 'exonfeat' using anaconda
@@ -29,20 +30,13 @@ git clone https://github.com/warif2/exonfeat.git
 pip install -r /exonfeat/requirements.txt
 ```
 
-Finally, run setup.py to obtain the license key needed to run the tools. It also provides the
-option of adding the directory to your PATH variable which allows calling the tool
-from any directory.
+Finally, run setup.py to obtain the license key needed to run the tools.
 ```bash
 # Run setup.py
 cd exonfeat/
 python setup.py
-
-Note: After setup, refresh terminal for PATH update to take effect.
-If exonfeat is still not callable, you might need to modify permissions of scripts.
-
-# For example, change tx_db.py permission to allow system-wide execution.
-chmod 755 tx_db.py
 ```
+*Note: enter the 'user' and 'pin' information provided. If you want to use the script and need a 'user' and 'pin', please contact me on waqar.github@gmail.com
 
 ## Quick Command Line Usage
 Step 1: Create transcript database.
