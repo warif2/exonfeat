@@ -38,6 +38,11 @@ python setup.py
 ```
 *Note: enter the 'user' and 'pin' information provided. If you want to use the script and need a 'user' and 'pin', please contact me on waqar.github@gmail.com
 
+The permissions to the directory might also need to changed to make the files executable. This can be done with the following command.
+```bash
+# Change the permisions of the exonfeat directory and files
+chmod 755 -R exonfeat/
+```
 ## Quick Command Line Usage
 Step 1: Create transcript database.
 ```bash
